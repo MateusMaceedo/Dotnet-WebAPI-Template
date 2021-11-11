@@ -16,3 +16,23 @@
 
 #### **<a name="oquee"> O que é?<a/>**
 É um template de API Web para .NET Core seguindo a [Arquitetura *Clean*]() com configurações e abstrações que facilita o uso de recursos como acesso à bando de dados, chamando APIs de forma externa. *Logging*, autenticação e geração de *tokens*, assinatura e publicação de mensagens, resiliência de chamadas externas entre outros.
+  
+#### **<a name="recursos">Recursos disponíveis<a/>**
+  
+#### **<a name="prereq">Pré-requisito<a/>**
+  
+#### **<a name="instalando">Instalando o Template<a/>**
+  
+#### **<a name="configurando">Configurando o Template<a/>**
+  
+#### **<a name="desinstalando">Desinstalando o Template<a/>**
+  
+#### **<a name="criando">Criando um projeto<a/>**
+  
+#### **<a name="arquitetura">Conhecendo a arquitetura do projeto<a/>**
+  
+#### **<a name="arquivosconfiguracoes">Arquivos de configurações<a/>**
+  
+#### **<a name="contruibuir">Como contruibuir?<a/>**
+  
+#### **<a name="contato">Contato<a/>**
