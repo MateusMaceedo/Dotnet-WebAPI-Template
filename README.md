@@ -22,8 +22,34 @@ O Template suporta os seguintes recursos:
   
 * [Amazon Simple Notification Service](docs/amazon.md)
   
-#### **<a name="prereq">Pré-requisito<a/>**
+* [Amazon Simple Queue Service](docs/amazon.md)
   
+* [Amazon DuynamoDB](docs/amazon.md)
+  
+* [AutoMapper](docs/amazon.md)
+  
+* [EntityFramework](docs/amazon.md)
+  
+* [Health Check](docs/amazon.md)
+  
+* [Polly](docs/amazon.md)
+  
+* [Refit](docs/amazon.md)
+  
+* [Swagger](docs/amazon.md)
+  
+* [Request/Response Logging](docs/amazon.md)
+  
+* [FluentAssertions](docs/amazon.md)
+  
+* [Moq](docs/amazon.md)
+  
+* [Xunit](docs/amazon.md)
+  
+#### **<a name="prereq">Pré-requisito<a/>**
+* Microsoft .NET Core SDK '3.1 ++' instalado.
+* Visual Studio 2019 ou Superior ou Visual Studio Code
+
 #### **<a name="instalando">Instalando o Template<a/>**
   
 #### **<a name="configurando">Configurando o Template<a/>**
