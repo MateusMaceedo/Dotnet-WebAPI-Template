@@ -15,7 +15,7 @@
 - [Contato](#contato)
 
 #### **<a name="oquee"> O que é?<a/>**
-É um template de API Web para .NET Core seguindo a [Arquitetura *Clean*]() com configurações e abstrações que facilita o uso de recursos como acesso à bando de dados, chamando APIs de forma externa. *Logging*, autenticação e geração de *tokens*, assinatura e publicação de mensagens, resiliência de chamadas externas entre outros.
+É um template de API Web para .NET Core seguindo a [Arquitetura *Clean*](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) com configurações e abstrações que facilita o uso de recursos como acesso à bando de dados, chamando APIs de forma externa. *Logging*, autenticação e geração de *tokens*, assinatura e publicação de mensagens, resiliência de chamadas externas entre outros.
   
 #### **<a name="recursos">Recursos disponíveis<a/>**
 O Template suporta os seguintes recursos:
