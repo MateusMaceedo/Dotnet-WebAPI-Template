@@ -32,7 +32,7 @@ O Template suporta os seguintes recursos:
   
 * [Health Check](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-6.0)
   
-* [Polly](dhttps://renatogroffe.medium.com/asp-net-core-3-0-polly-simplificando-o-tratamento-de-falhas-em-projetos-web-ec7d098b2e74)
+* [Polly](https://renatogroffe.medium.com/asp-net-core-3-0-polly-simplificando-o-tratamento-de-falhas-em-projetos-web-ec7d098b2e74)
   
 * [Refit](https://www.luisdev.com.br/2020/08/05/asp-net-core-e-refit-simplificando-a-comunicacao-entre-apis/)
   
