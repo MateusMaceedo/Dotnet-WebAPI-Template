@@ -38,13 +38,13 @@ O Template suporta os seguintes recursos:
   
 * [Swagger](https://swagger.io/docs/)
   
-* [Request/Response Logging](docs/amazon.md)
+* [Request/Response Logging](https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/http-logging/?view=aspnetcore-6.0)
   
-* [FluentAssertions](docs/amazon.md)
+* [FluentAssertions](https://fluentassertions.com/)
   
-* [Moq](docs/amazon.md)
+* [Moq](http://www.macoratti.net/15/08/net_mock1.htm)
   
-* [Xunit](docs/amazon.md)
+* [Xunit](https://xunit.net/)
   
 #### **<a name="prereq">Pré-requisito<a/>**
 * Microsoft .NET Core SDK '3.1 ++' instalado.
