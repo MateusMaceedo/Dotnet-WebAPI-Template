@@ -20,23 +20,23 @@
 #### **<a name="recursos">Recursos disponíveis<a/>**
 O Template suporta os seguintes recursos:
   
-* [Amazon Simple Notification Service](docs/amazon.md)
+* [Amazon Simple Notification Service](https://aws.amazon.com/pt/sns/)
   
-* [Amazon Simple Queue Service](docs/amazon.md)
+* [Amazon Simple Queue Service](https://aws.amazon.com/pt/sqs/)
   
-* [Amazon DuynamoDB](docs/amazon.md)
+* [Amazon DuynamoDB](https://aws.amazon.com/pt/dynamodb/?trk=ps_a134p000006gXxRAAU&trkCampaign=acq_paid_search_brand&sc_channel=PS&sc_campaign=acquisition_BR&sc_publisher=Google&sc_category=Database&sc_country=BR&sc_geo=LATAM&sc_outcome=acq&sc_detail=dynamodb&sc_content=DynamoDB_e&sc_matchtype=e&sc_segment=490415532717&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|Database|DynamoDB|BR|EN|Text&s_kwcid=AL!4422!3!490415532717!e!!g!!dynamodb&ef_id=CjwKCAiAm7OMBhAQEiwArvGi3LLyp3uogJoNH3ASLsjeRBFn-QKUoQDMIEmSrcpr8UARRdEaQdu4xxoCS0kQAvD_BwE:G:s&s_kwcid=AL!4422!3!490415532717!e!!g!!dynamodb)
   
-* [AutoMapper](docs/amazon.md)
+* [AutoMapper](https://automapper.org/)
   
-* [EntityFramework](docs/amazon.md)
+* [EntityFramework](https://docs.microsoft.com/pt-br/ef/)
   
-* [Health Check](docs/amazon.md)
+* [Health Check](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-6.0)
   
-* [Polly](docs/amazon.md)
+* [Polly](dhttps://renatogroffe.medium.com/asp-net-core-3-0-polly-simplificando-o-tratamento-de-falhas-em-projetos-web-ec7d098b2e74)
   
-* [Refit](docs/amazon.md)
+* [Refit](https://www.luisdev.com.br/2020/08/05/asp-net-core-e-refit-simplificando-a-comunicacao-entre-apis/)
   
-* [Swagger](docs/amazon.md)
+* [Swagger](https://swagger.io/docs/)
   
 * [Request/Response Logging](docs/amazon.md)
   
