@@ -5,4 +5,8 @@
     <RootNamespace>Template_Modelo.WebAPI</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\v1\" />
+  </ItemGroup>
+
 </Project>
