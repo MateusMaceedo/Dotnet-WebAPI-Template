@@ -18,6 +18,11 @@ namespace Template_Modelo.Domain.Validations.Base
         {}
 
         public List<Report> Report { get; }
+
+        public static Response<T> Ok<T>(T data) => new Response<T>(data);
+        public static Response Ok() => new Response();
+        public static Response Unprocessable(List<Report> reports) => new Response(reports);
+        public static Response Unprocessable(Report reports) => new Response(reports);
     }
 
     public class Response<T> : Response

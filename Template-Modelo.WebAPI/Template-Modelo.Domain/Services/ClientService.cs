@@ -5,8 +5,9 @@ using Template_Modelo.Domain.Interfaces.Repositories;
 using Template_Modelo.Domain.Interfaces.Services;
 using Template_Modelo.Domain.Models;
 using Template_Modelo.Domain.Validations;
+using Template_Modelo.Domain.Validations.Base;
 
-namespace Template_Modelo.Domain.Services
+namespace Template_Modelo.Domain.Services 
 {
     public class ClientService : IClientService
     {
@@ -21,41 +22,97 @@ namespace Template_Modelo.Domain.Services
             _clientRepository = clientRepository;
         }
 
-        public async Task CreateAsync(ClientModel client)
+        public async Task<Response> CreateAsync(ClientModel client)
         {
+            var response = new Response();
             var validation = new ClientValidation();
-            var result = validation.Validate(client);
+            var errors = validation.Validate(client).GetErrors();
 
-            if (!result.IsValid)
-            {
-                foreach (var erro in result.Errors)
-                {
-
-                }
-            }
+            if (errors.Report.Count > 0) return errors;
 
             _logger.LogInformation($"Criando Novo Cliente com as informações '{client}'");
             await _clientRepository.CreatAsync(client);
+
+            return response;
         }
 
-        public Task DeleteAsync(string IdClient)
+        public async Task<Response> DeleteAsync(string IdClient)
         {
-            throw new System.NotImplementedException();
+            var response = new Response();
+
+            var exists = await _clientRepository.ExistsByIdAsync(IdClient);
+
+            if (!exists)
+            {
+                response.Report.Add(Report.Create($"Client {IdClient} not exists!"));
+                return response;
+            }
+
+            _logger.LogInformation($"Deletando Cliente pelo Id'{IdClient}'");
+            await _clientRepository.DeleteAsync(IdClient);
+
+            return response;
         }
 
-        public Task<ClientModel> GetByIdAsync(string IdClient)
+        public async Task<Response<ClientModel>> GetByIdAsync(string IdClient)
         {
-            throw new System.NotImplementedException();
+            var response = new Response<ClientModel>();
+
+            var exists = await _clientRepository.ExistsByIdAsync(IdClient);
+
+            if (!exists)
+            {
+                response.Report.Add(Report.Create($"Client {IdClient} not exists!"));
+                return response;
+            }
+
+            var data = await _clientRepository.GetByIdAsync(IdClient);
+            response.Data = data;
+            return response;
         }
 
-        public Task<List<ClientModel>> ListByFiltersAsync(string idClient = null, string name = null)
+        public async Task<Response<List<ClientModel>>> ListByFiltersAsync(string idClient = null, string name = null)
         {
-            throw new System.NotImplementedException();
+            var response = new Response<List<ClientModel>>();
+
+            if (!string.IsNullOrWhiteSpace(idClient))
+            {
+                var exists = await _clientRepository.ExistsByIdAsync(idClient);
+
+                if (!exists)
+                {
+                    response.Report.Add(Report.Create($"Client {idClient} not exists!"));
+                    return response;
+                }
+            }
+
+            var data = await _clientRepository.ListByFilterAsync(idClient, name);
+            response.Data = data;
+
+            return response;
         }
 
-        public Task UpdateAsync(ClientModel client)
+        public async Task<Response> UpdateAsync(ClientModel client)
         {
-            throw new System.NotImplementedException();
+            var response = new Response();
+
+            var validation = new ClientValidation();
+            var errors = validation.Validate(client).GetErrors();
+
+            if (errors.Report.Count > 0)
+                return errors;
+
+            var exists = await _clientRepository.ExistsByIdAsync(client.Id);
+
+            if (!exists)
+            {
+                response.Report.Add(Report.Create($"Client {client.Id} not exists!"));
+                return response;
+            }
+
+            await _clientRepository.UpdateAsync(client);
+
+            return response;
         }
     }
 }
