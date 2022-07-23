@@ -39,7 +39,6 @@ namespace Template_Modelo.Domain.Services
         public async Task<Response> DeleteAsync(string IdClient)
         {
             var response = new Response();
-
             var exists = await _clientRepository.ExistsByIdAsync(IdClient);
 
             if (!exists)
@@ -57,7 +56,6 @@ namespace Template_Modelo.Domain.Services
         public async Task<Response<ClientModel>> GetByIdAsync(string IdClient)
         {
             var response = new Response<ClientModel>();
-
             var exists = await _clientRepository.ExistsByIdAsync(IdClient);
 
             if (!exists)
@@ -110,6 +108,7 @@ namespace Template_Modelo.Domain.Services
                 return response;
             }
 
+            _logger.LogInformation($"Editando Cadastro do Cliente pelo Id'{client}'");
             await _clientRepository.UpdateAsync(client);
 
             return response;
