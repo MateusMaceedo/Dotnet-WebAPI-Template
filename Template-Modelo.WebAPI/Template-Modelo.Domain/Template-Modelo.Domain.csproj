@@ -5,4 +5,8 @@
     <RootNamespace>Template_Modelo.Domain</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\Services\" />
+  </ItemGroup>
+
 </Project>
