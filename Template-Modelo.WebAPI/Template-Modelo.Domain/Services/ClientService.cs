@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Template_Modelo.Domain.Interfaces.Repositories;
 using Template_Modelo.Domain.Interfaces.Services;
 using Template_Modelo.Domain.Models;
+using Template_Modelo.Domain.Validations;
 
 namespace Template_Modelo.Domain.Services
 {
@@ -22,6 +23,17 @@ namespace Template_Modelo.Domain.Services
 
         public async Task CreateAsync(ClientModel client)
         {
+            var validation = new ClientValidation();
+            var result = validation.Validate(client);
+
+            if (!result.IsValid)
+            {
+                foreach (var erro in result.Errors)
+                {
+
+                }
+            }
+
             _logger.LogInformation($"Criando Novo Cliente com as informações '{client}'");
             await _clientRepository.CreatAsync(client);
         }

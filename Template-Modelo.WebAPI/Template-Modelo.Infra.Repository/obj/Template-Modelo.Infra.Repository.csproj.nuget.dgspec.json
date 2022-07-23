@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\Template-Modelo.Domain.csproj": {}
+    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Infra.Repository\\Template-Modelo.Infra.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\Template-Modelo.Domain.csproj": {
+    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Infra.Repository\\Template-Modelo.Infra.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\Template-Modelo.Domain.csproj",
-        "projectName": "Template-Modelo.Domain",
-        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\Template-Modelo.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Infra.Repository\\Template-Modelo.Infra.Repository.csproj",
+        "projectName": "Template-Modelo.Infra.Repository",
+        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Infra.Repository\\Template-Modelo.Infra.Repository.csproj",
         "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\obj\\",
+        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Infra.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,16 +39,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[11.1.0, )"
-            },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

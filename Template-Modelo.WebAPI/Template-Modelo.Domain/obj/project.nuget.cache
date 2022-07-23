@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FlXRekwAS+ciiOvQiBNmE388xEhi4vH5DgCi920tsB51dvZoiUWh+i+OSaiQTuLNIkvQgaQ6Oy9Aw1cypONy4g==",
+  "dgSpecHash": "mqjq4l+qxw7SvaxMGUm+Rt7FwfZjOoZtS2aR+ZqNSVtCM38wgp3z3+iL4ZkQ80Fhpf0RZ2kL3d332ymO9TH9jQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\Template-Modelo.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mateu\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
