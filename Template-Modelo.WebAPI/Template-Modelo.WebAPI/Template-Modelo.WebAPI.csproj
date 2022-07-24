@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\v1\" />
+    <ProjectReference Include="..\Template-Modelo.CrossCutting\Template-Modelo.CrossCutting.csproj" />
   </ItemGroup>
 
 </Project>

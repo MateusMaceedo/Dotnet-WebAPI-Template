@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Template_Modelo.CrossCutting</RootNamespace>
+  </PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="11.0.1" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="6.1.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <ProjectReference Include="..\Template-Modelo.Application\Template-Modelo.Application.csproj" />
+	  <ProjectReference Include="..\Template-Modelo.Infra.Repository\Template-Modelo.Infra.Repository.csproj" />
+	</ItemGroup>
+</Project>

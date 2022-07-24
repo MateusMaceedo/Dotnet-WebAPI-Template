@@ -1,0 +1,13 @@
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Application\bin\Debug\netcoreapp3.1\Template-Modelo.Application.deps.json
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Application\bin\Debug\netcoreapp3.1\Template-Modelo.Application.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Application\bin\Debug\netcoreapp3.1\Template-Modelo.Application.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Application\bin\Debug\netcoreapp3.1\Template-Modelo.Domain.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Application\bin\Debug\netcoreapp3.1\Template-Modelo.Domain.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Application\obj\Debug\netcoreapp3.1\Template-Modelo.Application.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Application\obj\Debug\netcoreapp3.1\Template-Modelo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Application\obj\Debug\netcoreapp3.1\Template-Modelo.Application.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Application\obj\Debug\netcoreapp3.1\Template-Modelo.Application.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Application\obj\Debug\netcoreapp3.1\Template-Modelo.Application.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Application\obj\Debug\netcoreapp3.1\Template-Modelo.Application.csproj.CopyComplete
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Application\obj\Debug\netcoreapp3.1\Template-Modelo.Application.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Application\obj\Debug\netcoreapp3.1\Template-Modelo.Application.pdb

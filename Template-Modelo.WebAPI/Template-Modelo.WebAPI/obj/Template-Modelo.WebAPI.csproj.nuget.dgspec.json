@@ -4,6 +4,291 @@
     "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.WebAPI\\Template-Modelo.WebAPI.csproj": {}
   },
   "projects": {
+    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Application\\Template-Modelo.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Application\\Template-Modelo.Application.csproj",
+        "projectName": "Template-Modelo.Application",
+        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Application\\Template-Modelo.Application.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\Template-Modelo.Domain.csproj": {
+                "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\Template-Modelo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.21.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.CrossCutting\\Template-Modelo.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.CrossCutting\\Template-Modelo.CrossCutting.csproj",
+        "projectName": "Template-Modelo.CrossCutting",
+        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.CrossCutting\\Template-Modelo.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Application\\Template-Modelo.Application.csproj": {
+                "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Application\\Template-Modelo.Application.csproj"
+              },
+              "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Infra.Repository\\Template-Modelo.Infra.Repository.csproj": {
+                "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Infra.Repository\\Template-Modelo.Infra.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\Template-Modelo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\Template-Modelo.Domain.csproj",
+        "projectName": "Template-Modelo.Domain",
+        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\Template-Modelo.Domain.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "BCrypt.Net-Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Infra.Repository\\Template-Modelo.Infra.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Infra.Repository\\Template-Modelo.Infra.Repository.csproj",
+        "projectName": "Template-Modelo.Infra.Repository",
+        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Infra.Repository\\Template-Modelo.Infra.Repository.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Infra.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\Template-Modelo.Domain.csproj": {
+                "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.Domain\\Template-Modelo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.WebAPI\\Template-Modelo.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +312,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.CrossCutting\\Template-Modelo.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Dotnet-WebAPI-Template\\Template-Modelo.WebAPI\\Template-Modelo.CrossCutting\\Template-Modelo.CrossCutting.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

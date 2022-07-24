@@ -1,0 +1,17 @@
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\bin\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.deps.json
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\bin\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\bin\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\bin\Debug\netcoreapp3.1\Template-Modelo.Application.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\bin\Debug\netcoreapp3.1\Template-Modelo.Domain.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\bin\Debug\netcoreapp3.1\Template-Modelo.Infra.Repository.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\bin\Debug\netcoreapp3.1\Template-Modelo.Application.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\bin\Debug\netcoreapp3.1\Template-Modelo.Infra.Repository.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\bin\Debug\netcoreapp3.1\Template-Modelo.Domain.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\obj\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\obj\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\obj\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\obj\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\obj\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\obj\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.csproj.CopyComplete
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\obj\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\obj\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.pdb

@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Template_Modelo.CrossCutting.Extensions;
+using Template_Modelo.CrossCutting.IoC;
 
 namespace Template_Modelo.WebAPI
 {
@@ -17,19 +19,27 @@ namespace Template_Modelo.WebAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            DependecyContainer.DependencyInjection(services);
+
+            AutoMapperExtensions.ConfigurarAutoMapper(services);
+
+            SwaggerExtensions.ConfigurarSwagger(services);
+
+            services.AddControllers();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseSwagger();
+            app.UseSwaggerUI(setup =>
+            {
+                setup.RoutePrefix = "swagger";
+                setup.SwaggerEndpoint("/swagger/v1/swagger.json", "Api Documentation");
+            });
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
             }
 
             app.UseHttpsRedirection();
@@ -42,9 +52,7 @@ namespace Template_Modelo.WebAPI
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllers();
             });
         }
     }

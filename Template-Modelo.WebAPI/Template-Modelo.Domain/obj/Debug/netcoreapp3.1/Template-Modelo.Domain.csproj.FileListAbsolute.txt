@@ -1,0 +1,10 @@
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Domain\bin\Debug\netcoreapp3.1\Template-Modelo.Domain.deps.json
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Domain\bin\Debug\netcoreapp3.1\Template-Modelo.Domain.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Domain\bin\Debug\netcoreapp3.1\Template-Modelo.Domain.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Domain\obj\Debug\netcoreapp3.1\Template-Modelo.Domain.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Domain\obj\Debug\netcoreapp3.1\Template-Modelo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Domain\obj\Debug\netcoreapp3.1\Template-Modelo.Domain.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Domain\obj\Debug\netcoreapp3.1\Template-Modelo.Domain.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Domain\obj\Debug\netcoreapp3.1\Template-Modelo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Domain\obj\Debug\netcoreapp3.1\Template-Modelo.Domain.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Domain\obj\Debug\netcoreapp3.1\Template-Modelo.Domain.pdb

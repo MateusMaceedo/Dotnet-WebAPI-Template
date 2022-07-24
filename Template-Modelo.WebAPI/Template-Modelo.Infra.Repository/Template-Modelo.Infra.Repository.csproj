@@ -5,4 +5,8 @@
     <RootNamespace>Template_Modelo.Infra.Repository</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Template-Modelo.Domain\Template-Modelo.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
