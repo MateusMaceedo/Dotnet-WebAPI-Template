@@ -1,7 +1,10 @@
 ﻿using AutoMapper;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Template_Modelo.Application.Contract.Request;
+using Template_Modelo.Application.Contract.Request.ClientRequest;
 using Template_Modelo.Application.Contract.Response.ClientResponse;
 using Template_Modelo.Domain.Interfaces.Services;
 using Template_Modelo.Domain.Models;
@@ -24,14 +27,54 @@ namespace Template_Modelo.Application.Applications
 
         public async Task<Response> CreateAsync(CreateClientRequest client)
         {
-            var clientModel = _mapper.Map<ClientModel>(client);
+            try
+            {
+                var clientModel = _mapper.Map<ClientModel>(client);
 
-            return await _clientService.CreateAsync(clientModel);
+                return await _clientService.CreateAsync(clientModel);
+            }
+            catch (Exception ex)
+            {
+                var response = Report.Create(ex.Message);
+
+                return Response.Unprocessable(response);
+            }
         }
 
-        public Task<Response<List<ReturnClientResponse>>> ListByFilterAsync(string clientId, string name)
+        public async Task<Response> DeleteAsync(string clientId)
         {
-            throw new System.NotImplementedException();
+            return await _clientService.DeleteAsync(clientId);
+        }
+
+        public async Task<Response<ClientResponse>> GetByIdAsync(string clientId)
+        {
+            Response<ClientModel> client = await _clientService.GetByIdAsync(clientId);
+
+            if (client.Report.Any())
+                return Response.Unprocessable<ClientResponse>(client.Report);
+
+            var response = _mapper.Map<ClientResponse>(client.Data);
+
+            return Response.OK(response);
+        }
+
+        public async Task<Response<List<ClientResponse>>> ListByFilterAsync(string clientId, string name)
+        {
+            Response<List<ClientModel>> client = await _clientService.ListByFiltersAsync(clientId, name);
+
+            if (client.Report.Any())
+                return Response.Unprocessable<List<ClientResponse>>(client.Report);
+
+            var response = _mapper.Map<List<ClientResponse>>(client.Data);
+
+            return Response.OK(response);
+        }
+
+        public async Task<Response> UpdateAsync(UpdateClientRequest request)
+        {
+            var clientModel = _mapper.Map<ClientModel>(request);
+
+            return await _clientService.UpdateAsync(clientModel);
         }
     }
 }

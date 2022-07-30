@@ -15,3 +15,5 @@ C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo
 C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\obj\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.csproj.CopyComplete
 C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\obj\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.dll
 C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\obj\Debug\netcoreapp3.1\Template-Modelo.CrossCutting.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\bin\Debug\netcoreapp3.1\Template-Modelo.Infra.Data.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.CrossCutting\bin\Debug\netcoreapp3.1\Template-Modelo.Infra.Data.pdb

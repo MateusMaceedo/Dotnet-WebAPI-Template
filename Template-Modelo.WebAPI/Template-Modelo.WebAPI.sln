@@ -3,29 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template-Modelo.WebAPI", "Template-Modelo.WebAPI\Template-Modelo.WebAPI.csproj", "{80EB19B1-8FF0-4328-BABB-D1B04C114247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template-Modelo.WebAPI", "Template-Modelo.WebAPI\Template-Modelo.WebAPI.csproj", "{80EB19B1-8FF0-4328-BABB-D1B04C114247}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{D4EA1EE8-7224-483F-8368-CE78F4081B1B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{9CA31D8B-5FAF-45A1-815E-ACF36E13B007}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - ApplicationCore", "1 - ApplicationCore", "{21F72EA1-FFEF-4EC1-98A6-C8A7D8AB0DE9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{21F72EA1-FFEF-4EC1-98A6-C8A7D8AB0DE9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{DF3A87E1-267E-4005-BE98-43C8CC2ADE71}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{DF3A87E1-267E-4005-BE98-43C8CC2ADE71}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{9A746351-4207-492C-B2E9-6D6D97CC6FD4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{9A746351-4207-492C-B2E9-6D6D97CC6FD4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{9D290A79-342C-47F3-A72E-D276B7C45026}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template-Modelo.Domain", "Template-Modelo.Domain\Template-Modelo.Domain.csproj", "{A115A548-BDAC-45AB-AC0A-319484815BD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template-Modelo.Domain", "Template-Modelo.Domain\Template-Modelo.Domain.csproj", "{A115A548-BDAC-45AB-AC0A-319484815BD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template-Modelo.Infra.Data", "Template-Modelo.Infra.Data\Template-Modelo.Infra.Data.csproj", "{38D2490D-B8A8-464C-8891-9884D810275D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template-Modelo.Infra.Data", "Template-Modelo.Infra.Data\Template-Modelo.Infra.Data.csproj", "{38D2490D-B8A8-464C-8891-9884D810275D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template-Modelo.Application", "Template-Modelo.Application\Template-Modelo.Application.csproj", "{BE050802-660A-46B9-9103-746513FFDBA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template-Modelo.Application", "Template-Modelo.Application\Template-Modelo.Application.csproj", "{BE050802-660A-46B9-9103-746513FFDBA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template-Modelo.Infra.Repository", "Template-Modelo.Infra.Repository\Template-Modelo.Infra.Repository.csproj", "{9C208036-661D-470D-B964-DF5D48E2DCEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template-Modelo.Infra.Repository", "Template-Modelo.Infra.Repository\Template-Modelo.Infra.Repository.csproj", "{9C208036-661D-470D-B964-DF5D48E2DCEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template-Modelo.CrossCutting", "Template-Modelo.CrossCutting\Template-Modelo.CrossCutting.csproj", "{1CBB43AE-83BC-4F9C-9DAC-32C31CAFBEB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template-Modelo.CrossCutting", "Template-Modelo.CrossCutting\Template-Modelo.CrossCutting.csproj", "{1CBB43AE-83BC-4F9C-9DAC-32C31CAFBEB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -17,6 +17,11 @@ namespace Template_Modelo.CrossCutting.IoC
     {
         public static void DependencyInjection(IServiceCollection services)
         {
+            // Pattens
+            //services.AddScoped<IUnitOfWork, UnitOfWork>();
+            //services.AddScoped<ITimeProvider, TimeProvider>();
+            //services.AddScoped<IGenerators, Generators>();
+
             // Client
             services.AddScoped<IClientApplication, ClientApplication>();
             services.AddScoped<IClientService, ClientService>();

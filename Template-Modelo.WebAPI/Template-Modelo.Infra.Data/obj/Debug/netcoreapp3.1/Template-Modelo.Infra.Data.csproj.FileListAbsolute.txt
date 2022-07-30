@@ -1,9 +1,13 @@
 C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Infra.Data\bin\Debug\netcoreapp3.1\Template-Modelo.Infra.Data.deps.json
 C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Infra.Data\bin\Debug\netcoreapp3.1\Template-Modelo.Infra.Data.dll
 C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Infra.Data\bin\Debug\netcoreapp3.1\Template-Modelo.Infra.Data.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Infra.Data\bin\Debug\netcoreapp3.1\Template-Modelo.Domain.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Infra.Data\bin\Debug\netcoreapp3.1\Template-Modelo.Domain.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Infra.Data\obj\Debug\netcoreapp3.1\Template-Modelo.Infra.Data.csproj.AssemblyReference.cache
 C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Infra.Data\obj\Debug\netcoreapp3.1\Template-Modelo.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Infra.Data\obj\Debug\netcoreapp3.1\Template-Modelo.Infra.Data.AssemblyInfoInputs.cache
 C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Infra.Data\obj\Debug\netcoreapp3.1\Template-Modelo.Infra.Data.AssemblyInfo.cs
 C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Infra.Data\obj\Debug\netcoreapp3.1\Template-Modelo.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Infra.Data\obj\Debug\netcoreapp3.1\Template-Modelo.Infra.Data.csproj.CopyComplete
 C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Infra.Data\obj\Debug\netcoreapp3.1\Template-Modelo.Infra.Data.dll
 C:\Users\mateu\OneDrive\Área de Trabalho\Dotnet-WebAPI-Template\Template-Modelo.WebAPI\Template-Modelo.Infra.Data\obj\Debug\netcoreapp3.1\Template-Modelo.Infra.Data.pdb

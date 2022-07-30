@@ -15,6 +15,7 @@
 	
 	<ItemGroup>
 	  <ProjectReference Include="..\Template-Modelo.Application\Template-Modelo.Application.csproj" />
+	  <ProjectReference Include="..\Template-Modelo.Infra.Data\Template-Modelo.Infra.Data.csproj" />
 	  <ProjectReference Include="..\Template-Modelo.Infra.Repository\Template-Modelo.Infra.Repository.csproj" />
 	</ItemGroup>
 </Project>

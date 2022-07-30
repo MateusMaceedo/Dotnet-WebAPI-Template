@@ -5,4 +5,12 @@
     <RootNamespace>Template_Modelo.Infra.Data</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Template-Modelo.Domain\Template-Modelo.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

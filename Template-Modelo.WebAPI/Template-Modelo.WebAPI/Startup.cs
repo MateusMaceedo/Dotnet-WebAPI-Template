@@ -25,6 +25,8 @@ namespace Template_Modelo.WebAPI
 
             SwaggerExtensions.ConfigurarSwagger(services);
 
+            DataExtensions.ConfigurarDbConnector(services, Configuration);
+
             services.AddControllers();
         }
 
@@ -44,9 +46,9 @@ namespace Template_Modelo.WebAPI
 
             app.UseHttpsRedirection();
 
-            app.UseStaticFiles();
-
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
